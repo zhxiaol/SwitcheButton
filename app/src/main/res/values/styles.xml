@@ -1,0 +1,30 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+
+    <style name="Switch">
+        <item name="sw_trackSize">14dp</item>
+        <item name="sw_trackCap">round</item>
+        <item name="sw_thumbRadius">10dp</item>
+        <item name="sw_thumbElevation">2dp</item>
+        <item name="sw_animDuration">@android:integer/config_shortAnimTime</item>
+        <item name="sw_interpolator">@android:anim/decelerate_interpolator</item>
+    </style>
+    <style name="LightSwitch" parent="Switch">
+        <item name="sw_trackColor">@drawable/color_track_light</item>
+        <item name="sw_thumbColor">@drawable/color_thumb_light</item>
+    </style>
+    <style name="DarkSwitch" parent="Switch">
+        <item name="sw_trackColor">@drawable/color_track_dark</item>
+        <item name="sw_thumbColor">@drawable/color_thumb_dark</item>
+    </style>
+
+
+</resources>
